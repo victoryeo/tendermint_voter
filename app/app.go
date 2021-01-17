@@ -22,9 +22,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/params"
 	"github.com/cosmos/cosmos-sdk/x/staking"
 	"github.com/cosmos/cosmos-sdk/x/supply"
-	"github.com/alice/voter/x/voter"
-	voterkeeper "github.com/alice/voter/x/voter/keeper"
-	votertypes "github.com/alice/voter/x/voter/types"
+	"github.com/victoryeo/voter/x/voter"
+	voterkeeper "github.com/victoryeo/voter/x/voter/keeper"
+	votertypes "github.com/victoryeo/voter/x/voter/types"
   // this line is used by starport scaffolding # 1
 )
 

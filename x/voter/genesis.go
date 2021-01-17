@@ -2,8 +2,8 @@ package voter
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/alice/voter/x/voter/keeper"
-	"github.com/alice/voter/x/voter/types"
+	"github.com/victoryeo/voter/x/voter/keeper"
+	"github.com/victoryeo/voter/x/voter/types"
 	// abci "github.com/tendermint/tendermint/abci/types"
 )
 

@@ -23,7 +23,7 @@ import (
 	"github.com/tendermint/go-amino"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/alice/voter/app"
+	"github.com/victoryeo/voter/app"
   // this line is used by starport scaffolding # 1
 )
 

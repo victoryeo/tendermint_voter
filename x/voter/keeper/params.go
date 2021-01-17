@@ -6,7 +6,7 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/alice/voter/x/voter/types"
+	"github.com/victoryeo/voter/x/voter/types"
 )
 
 // GetParams returns the total set of voter parameters.
