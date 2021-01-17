@@ -5,15 +5,19 @@
       <sp-bank-balances />
       <sp-token-send />
       <!-- this line is used by starport scaffolding # 4 -->
-		<sp-type-form type="poll" :fields="['title', 'options', ]" module="voter" />
+      <SpH3>
+       Polls.Again.
+      </SpH3>
+      <poll-form />
     </div>
   </div>
 </template>
 
 <script>
 import * as sp from "@tendermint/vue";
+import PollForm from "../components/PollForm";
 
 export default {
-  components: { ...sp },
+  components: { PollForm, ...sp },
 };
 </script>
