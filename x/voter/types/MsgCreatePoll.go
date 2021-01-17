@@ -10,7 +10,7 @@ var _ sdk.Msg = &MsgCreatePoll{}
 type MsgCreatePoll struct {
   Creator sdk.AccAddress `json:"creator" yaml:"creator"`
   Title string `json:"title" yaml:"title"`
-  Options []string `json:"ptions" yaml:"ptions"`
+  Options []string `json:"options" yaml:"options"`
 }
 
 func NewMsgCreatePoll(creator sdk.AccAddress, title string, options []string) MsgCreatePoll {

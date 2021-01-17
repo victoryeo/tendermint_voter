@@ -11,7 +11,7 @@ type MsgSetPoll struct {
   ID      string      `json:"id" yaml:"id"`
   Creator sdk.AccAddress `json:"creator" yaml:"creator"`
   Title string `json:"title" yaml:"title"`
-  Options []string `json:"ptions" yaml:"ptions"`
+  Options []string `json:"options" yaml:"options"`
 }
 
 func NewMsgSetPoll(creator sdk.AccAddress, id string, title string, options []string) MsgSetPoll {
