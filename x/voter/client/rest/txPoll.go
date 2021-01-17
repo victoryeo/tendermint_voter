@@ -18,7 +18,7 @@ type createPollRequest struct {
 	BaseReq rest.BaseReq `json:"base_req"`
 	Creator string `json:"creator"`
 	Title string `json:"title"`
-	Options []string `json:"ptions"`
+	Options []string `json:"options"`
 }
 
 func createPollHandler(cliCtx context.CLIContext) http.HandlerFunc {
@@ -38,17 +38,17 @@ func createPollHandler(cliCtx context.CLIContext) http.HandlerFunc {
 			return
 		}
 
-		
+
 		parsedTitle := req.Title
-		
+
 		parsedOptions := req.Options
-		
+
 
 		msg := types.NewMsgCreatePoll(
 			creator,
 			parsedTitle,
 			parsedOptions,
-			
+
 		)
 
 		err = msg.ValidateBasic()
@@ -86,18 +86,18 @@ func setPollHandler(cliCtx context.CLIContext) http.HandlerFunc {
 			return
 		}
 
-		
+
 		parsedTitle := req.Title
-		
+
 		parsedOptions := req.Options
-		
+
 
 		msg := types.NewMsgSetPoll(
 			creator,
 			req.ID,
 			parsedTitle,
 			parsedOptions,
-			
+
 		)
 
 		err = msg.ValidateBasic()
