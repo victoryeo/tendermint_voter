@@ -1,5 +1,4 @@
 <template>
-  Extra text<br>
   <div>
     <button class="button">{{ value }}</button>
   </div>
