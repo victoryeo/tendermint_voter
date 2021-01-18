@@ -4,7 +4,7 @@
 
 ## Architecture
 
-The vue folder is a web frontend of the app. It calls the golang backend via cosmos dispathc
+The vue folder is a web frontend of the app. It calls the golang backend via cosmos dispatch
 function, as in PollForm.vue
 
 The x folder contains the module of the app, which is the voter module.
